@@ -1,12 +1,57 @@
+#tube{
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    margin: auto;
+  }
+  
+  #box{
+    background-color: black;
+    width: 200px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 20px;
+  }
 
-/* 
+  .rojo{
+    background-color: red;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-bottom: 7%;
+  }
+  
+  .amarillo{
+    background-color: yellow;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-bottom: 7%;
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+  .verde{
+    background-color: green;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+  }
+  
+  .on{
+    box-shadow: 0 0 30px #FFFFFF;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
-*/
+ 
